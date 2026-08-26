@@ -1,3 +1,5 @@
 flask
+flask-cors
+unicorn
 requests
 python-dotenv
