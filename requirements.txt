@@ -1,9 +1,5 @@
 flask
 flask-cors
-<<<<<<< HEAD
-=======
-unicorn
->>>>>>> 0b55ff6b05e856666176578fde804c72c016358e
 requests
 python-dotenv
 gunicorn
