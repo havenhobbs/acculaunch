@@ -18,6 +18,9 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast"
 SETTINGS_FILE = "settings.json"
 
+@app.route("/")
+def home():
+    return jsonify({"status": "acculaunch API is running", "endpoints": ["/api/weather", "/api/launch/status", "/api/settings", "/api/forecast"]})
 @app.route("/api/weather", methods=["GET"])
 def get_weather():
     if not OPENWEATHER_API_KEY:
