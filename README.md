@@ -1,10 +1,9 @@
 # Acculaunch
 
-[![Live Demo](https://img.shields.io)](https://acculaunch.vercel.app)
-[![API Status](https://img.shields.io)](https://acculaunch.onrender.com)
+![Live Demo](https://img.shields.io/badge/vercel)
+![API Status](https://img.shields.io/badge/render)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![Node.js](https://img.shields.io/badge/node-18+-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/havenhobbs/acculaunch)
 
 **Acculaunch** is a full-stack flight readiness tracking dashboard built to evaluate real-time meteorological conditions against strict strucutral mission constraints. 
@@ -13,7 +12,7 @@ This application pairs a Python/Flask backend API with a React + Vite frontend d
 
 ## Live Demonstration & Core Features
 
-*[Click here to view the live deployment hosted on Vercel & Render](https://acculaunch.vercel.app)*
+*[Live deployment hosted on Vercel & Render](https://acculaunch.vercel.app)*
 
 * **Dynamic Constraint Verification:** Cross-checks active wind vectors, visibilirt bounds, wind shear ratios, and localized precipitation values against baseline mission thresholds. 
 * **Asynchronous Serialization:** Leverages automated background endpoints to efficiently pipe third-party mapping telemetry down to frontend hooks.
