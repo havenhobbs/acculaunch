@@ -1,11 +1,11 @@
 # Acculaunch
 
-![Live Demo](https://img.shields.io/badge/vercel)
-![API Status](https://img.shields.io/badge/onrender)
+[![Live Demo](https://img.shields.io)](https://vercel.app)
+[![API Status](https://img.shields.io)](https://onrender.com)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![Node.js](https://img.shields.io/badge/node-18+-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/CPSC4910-Team-4/acculaunch)
+![GitHub last commit](https://img.shields.io/github/last-commit/havenhobbs/acculaunch)
 
 **Acculaunch** is a full-stack flight readiness tracking dashboard built to evaluate real-time meteorological conditions against strict strucutral mission constraints. 
 
