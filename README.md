@@ -1,7 +1,7 @@
 # Acculaunch
 
-[![Live Demo](https://img.shields.io)](https://vercel.app)
-[![API Status](https://img.shields.io)](https://onrender.com)
+[![Live Demo](https://img.shields.io)](https://acculaunch.vercel.app)
+[![API Status](https://img.shields.io)](https://acculaunch.onrender.com)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![Node.js](https://img.shields.io/badge/node-18+-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -13,7 +13,7 @@ This application pairs a Python/Flask backend API with a React + Vite frontend d
 
 ## Live Demonstration & Core Features
 
-* [Click here to view the live deployment hosted on Vercel & Render] (https://acculaunch.vercel.app) *
+* [Click here to view the live deployment hosted on Vercel & Render](https://acculaunch.vercel.app)*
 
 * **Dynamic Constraint Verification:** Cross-checks active wind vectors, visibilirt bounds, wind shear ratios, and localized precipitation values against baseline mission thresholds. 
 * **Asynchronous Serialization:** Leverages automated background endpoints to efficiently pipe third-party mapping telemetry down to frontend hooks.
