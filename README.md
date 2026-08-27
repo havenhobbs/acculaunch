@@ -13,7 +13,7 @@ This application pairs a Python/Flask backend API with a React + Vite frontend d
 
 ## Live Demonstration & Core Features
 
-* [Click here to view the live deployment hosted on Vercel & Render](https://acculaunch.vercel.app)*
+*[Click here to view the live deployment hosted on Vercel & Render](https://acculaunch.vercel.app)*
 
 * **Dynamic Constraint Verification:** Cross-checks active wind vectors, visibilirt bounds, wind shear ratios, and localized precipitation values against baseline mission thresholds. 
 * **Asynchronous Serialization:** Leverages automated background endpoints to efficiently pipe third-party mapping telemetry down to frontend hooks.
