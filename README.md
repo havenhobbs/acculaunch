@@ -18,10 +18,12 @@ This application pairs a Python/Flask backend API with a React + Vite frontend d
 
 ## System Architecture & Technology Stack
 
-**Frontend** | React 18, Vite, JavaScript | Component-driven interface design, state management, and real-time interface rendering.
-**Backend API Server** | Python 3.10, Flask, Flask-CORS | Handles third-party OpenWeatherMap API routing, data serialization, and status calculations.
-**Automation Environment** | Python-Dotenv, Requests, Gunicorn | Secure environment configuration management and production server initialization. 
-**DevOps & Cloud Hosting** | Vercel Edge, Render Hosting | Decoupled continuous integration pipelines for instantaneous build deployments.
+| Architecture Layer | Core Tech | Purpose |
+| :--- | :--- | :--- |
+| **Frontend** | React 18, Vite, JavaScript | Component-driven interface design, state management, and real-time interface rendering. |
+| **Backend API Server** | Python 3.10, Flask, Flask-CORS | Handles third-party OpenWeatherMap API routing, data serialization, and status calculations. |
+| **Automation Environment** | Python-Dotenv, Requests, Gunicorn | Secure environment configuration management and production server initialization. |
+| **DevOps & Cloud Hosting** | Vercel Edge, Render Hosting | Decoupled continuous integration pipelines for instantaneous build deployments. |
 
 ---
 
