@@ -1,14 +1,44 @@
 # Acculaunch
 
+![Live Demo](https://img.shields.io/badge/vercel)
+![API Status](https://img.shields.io/badge/onrender)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![Node.js](https://img.shields.io/badge/node-18+-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/CPSC4910-Team-4/acculaunch)
 
-**Acculaunch** is a local testing environment for monitoring weather and launch readiness.
-It combines a Python/Flask backend API with a React + Vite frontend dashboard to display weather metrics and launch go/no-go status for predefined launch sites. 
+**Acculaunch** is a full-stack flight readiness tracking dashboard built to evaluate real-time meteorological conditions against strict strucutral mission constraints. 
 
-# Quick Start
+This application pairs a Python/Flask backend API with a React + Vite frontend dashboard to display weather metrics and launch go/no-go status for predefined launch sites. 
+
+## Live Demonstration & Core Features
+
+* [Click here to view the live deployment hosted on Vercel & Render] (https://acculaunch.vercel.app) *
+
+* **Dynamic Constraint Verification:** Cross-checks active wind vectors, visibilirt bounds, wind shear ratios, and localized precipitation values against baseline mission thresholds. 
+* **Asynchronous Serialization:** Leverages automated background endpoints to efficiently pipe third-party mapping telemetry down to frontend hooks.
+* **Geographic Modular Filtering:** Instantly updates complete historical forecasts and analytics grids via clean custom coordinate drop-down selectors.
+
+## System Architecture & Technology Stack
+
+**Frontend** | React 18, Vite, JavaScript | Component-driven interface design, state management, and real-time interface rendering.
+**Backend API Server** | Python 3.10, Flask, Flask-CORS | Handles third-party OpenWeatherMap API routing, data serialization, and status calculations.
+**Automation Environment** | Python-Dotenv, Requests, Gunicorn | Secure environment configuration management and production server initialization. 
+**DevOps & Cloud Hosting** | Vercel Edge, Render Hosting | Decoupled continuous integration pipelines for instantaneous build deployments.
+
+---
+
+## Exposed REST API Endpoints
+
+The Flask engine provides clean JSON routing endpoints utilized directly by the frontend service layers: 
+*   `GET /api/weather` - Fetches current raw weather metrics based on target geographical markers.
+*   `GET /api/forecast` - Restructures interval weather prediction sequences for advanced analysis.
+*   `GET /api/launch/status` - Processes business rules against environmental criteria to yield final Go/No-Go decisions.
+*   `GET /api/settings` - Returns the current configuration parameters and active safety metrics.
+
+---
+
+## Local Quick Start Guide 
 
 Follow these steps to get Acculaunch running locally:
 
