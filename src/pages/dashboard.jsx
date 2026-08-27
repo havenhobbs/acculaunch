@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Widget from '../components/Widget';
+import Widget from '../components/widget';
 import Number from '../components/number';
 import Go_Nogo from "../components/go_nogo";
 
