@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import img from "../assets/images/img.png";
+import havenhobbs from "../assets/images/havenhobbs.png";
 
 
 const About = () => {
@@ -36,9 +37,14 @@ const About = () => {
                     <div className="team-member">
                         <img src={img} alt="Teammate Name" />
                         <h3>Haven Hobbs</h3>
+                        <p></p>
                     </div>
 
-                    <p></p>
+                    <div className="team-member">
+                        <img src={havenhobbs} alt="Teammate Name" />
+                        <h3>Haven Hobbs</h3>
+                        <p></p>
+                    </div>
 
                 
                     
