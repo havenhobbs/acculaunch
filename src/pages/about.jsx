@@ -35,18 +35,10 @@ const About = () => {
                 <div className="team-grid">
                     
                     <div className="team-member">
-                        <img src={img} alt="Teammate Name" />
-                        <h3>Haven Hobbs</h3>
-                        <p></p>
-                    </div>
-
-                    <div className="team-member">
                         <img src={havenhobbs} alt="Teammate Name" />
                         <h3>Haven Hobbs</h3>
-                        <p></p>
+                       
                     </div>
-
-                
                     
                 </div>
             </section>
