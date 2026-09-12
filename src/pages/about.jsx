@@ -32,35 +32,16 @@ const About = () => {
             <section className="about-section"> 
 
                 <div className="team-grid">
-                    <div className="team-member">
-                        <img src={img} alt="Reagan Boswell" />
-                        <h3>Reagan Boswell</h3>
-                        <p>Scrum Master</p>
-                    </div>
-
-                    <div className="team-member">
-                        <img src={img} alt="Teammate Name" />
-                        <h3>Jacob Graham</h3>
-                        <p>Data Analyst</p>
-                    </div>
-
+                    
                     <div className="team-member">
                         <img src={img} alt="Teammate Name" />
                         <h3>Haven Hobbs</h3>
-                        <p>Frontend Developer</p>
                     </div>
 
-                    <div className="team-member">
-                        <img src={img} alt="Teammate Name" />
-                        <h3>Sakshi Shah</h3>
-                        <p>Backend Developer</p>
-                    </div>
+                    <p></p>
 
-                    <div className="team-member">
-                        <img src={img} alt="Teammate Name" />
-                        <h3>Krish Vyas</h3>
-                        <p>Data Engineer</p>
-                    </div>
+                
+                    
                 </div>
             </section>
 
