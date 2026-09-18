@@ -1,10 +1,10 @@
-# Acculaunch
+# acculaunch
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![Node.js](https://img.shields.io/badge/node-18+-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/havenhobbs/acculaunch)
 
-**Acculaunch** is a full-stack flight readiness tracking dashboard built to evaluate real-time meteorological conditions against strict strucutral mission constraints. 
+**acculaunch** is a full-stack flight readiness tracking dashboard built to evaluate real-time meteorological conditions against strict structural mission constraints. 
 
 This application pairs a Python/Flask backend API with a React + Vite frontend dashboard to display weather metrics and launch go/no-go status for predefined launch sites. 
 
@@ -12,8 +12,8 @@ This application pairs a Python/Flask backend API with a React + Vite frontend d
 
 *[Live Deployment](https://acculaunch.vercel.app)*
 
-* **Dynamic Constraint Verification:** Cross-checks active wind vectors, visibilirt bounds, wind shear ratios, and localized precipitation values against baseline mission thresholds. 
-* **Asynchronous Serialization:** Leverages automated background endpoints to efficiently pipe third-party mapping telemetry down to frontend hooks.
+* **Dynamic Constraint Verification:** Cross-checks active wind vectors, visibility bounds, wind shear ratios, and localized precipitation values against baseline mission thresholds. 
+* **Asynchronous Serialization:** Leverages automated backend endpoints to efficiently pipe third-party mapping telemetry down to frontend hooks.
 * **Geographic Modular Filtering:** Instantly updates complete historical forecasts and analytics grids via clean custom coordinate drop-down selectors.
 
 ## System Architecture & Technology Stack
@@ -23,7 +23,7 @@ This application pairs a Python/Flask backend API with a React + Vite frontend d
 | **Frontend** | React 18, Vite, JavaScript | Component-driven interface design, state management, and real-time interface rendering. |
 | **Backend API Server** | Python 3.10, Flask, Flask-CORS | Handles third-party OpenWeatherMap API routing, data serialization, and status calculations. |
 | **Automation Environment** | Python-Dotenv, Requests, Gunicorn | Secure environment configuration management and production server initialization. |
-| **DevOps & Cloud Hosting** | Vercel Edge, Render Hosting | Decoupled continuous integration pipelines for instantaneous build deployments. |
+| **DevOps & Cloud Hosting** | Vercel, Render | Decoupled continuous integration pipelines for instantaneous build deployments. |
 
 ---
 
@@ -223,7 +223,7 @@ src/
 
 - Dashboard shows: wind average, gust, wind shear, visibility, rain, humidity
 
-- Forecast shows multi-time interval weather predicitions for the Dashboard criteria
+- Forecast shows multi-time interval weather predictions for the Dashboard criteria
 
 
 ---
@@ -237,7 +237,7 @@ src/
 
 - Python Module Errors
     - Ensure venv is activated
-    - Ensure `pip install -r requirements.txt` ran successsfully
+    - Ensure `pip install -r requirements.txt` ran successfully
 
 - Port Conflicts (if necessary)
     - Change Flask (`weather.py`) port
@@ -270,7 +270,7 @@ npm run dev
 
 ### Test
 
-- Open `http::/localhost:5173`
+- Open `http://localhost:5173`
 - Switch locations, verify weather, forecast, and launch status
 
     
